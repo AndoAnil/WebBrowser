@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Back"
+    android:id="@+id/back"
+    app:showAsAction="always"
+    android:icon="@drawable/ic_backword"
+    ></item>
+    <item
+        android:title="Forword"
+        android:id="@+id/forword"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_forword"
+        ></item>
+    <item
+        android:title="Refresh"
+        android:id="@+id/refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh"
+        ></item>
+</menu>
