@@ -15,7 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:id="@+id/listView">
+        android:id="@+id/listView"
+        android: layout_margin="10dp"
+        android:  visibility ="visible"
+                  >
 
     <ProgressBar
         android:layout_width="match_parent"
